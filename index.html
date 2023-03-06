@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/7adf1fbf24.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/styles/main.css">
+  <title>Portfólio Gustavo</title>
+</head>
+<body>
+  <header>
+    <a href="#intro" class="logo">
+      Gustavo Vieira
+    </a>
+    <div class="menu">
+      <nav class="menu__navigation" id='navMenu'>
+        <ul class="navigation__list">
+          <li>
+            <a href="#skills" class="navigation__link">
+              Skills
+            </a>
+          </li>
+          <li>
+            <a href="#about" class="navigation__link">
+              Sobre mim
+            </a>
+          </li>
+          <li>
+            <a href="#formacao" class="navigation__link">
+              Formação
+            </a>
+          </li>
+          <li>
+            <a href="#projects" class="navigation__link">
+              Projetos
+            </a>
+          </li>
+          <li>
+            <a href="#contact" class="navigation__link">
+              Contato
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="menuToggle">
+        <i class="fa-solid fa-bars btn-open"></i>
+        <i class="fa-solid fa-x btn-close"></i>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="intro" class='base'>
+      <div class="intro__info">
+        <h1 class="info__name">
+          Olá, sou Gustavo Vieira desenvolvedor front-end.
+        </h1>
+        <p class="info__description">
+          Estudo desenvolvimento front-end a cerca de um ano e meio,
+          atualmente participo do programa
+          <em>
+            <a
+              href="https://www.oracle.com/br/education/oracle-next-education/"
+              class="info__description__link"
+              target='_blank'
+              title='Site do programa Oracle ONE.'
+            >
+              Oracle ONE 
+            </a>
+          </em>
+            na
+          <em>
+            <a
+              href="https://www.alura.com.br/"
+              class="info__description__link"
+              target='_blank'
+              title='Site da Alura.'
+            >
+              Alura
+            </a>
+          </em>
+          .
+        </p>
+        <ul class='info__sociallinks'>
+          <li>
+            <a href="https://github.com/ARCFives" target='_blank' title='Meu github'>
+              <i class="fa-brands fa-github sociallinks__icon"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/gustavo-vieira-frontdev/" target='_blank' title='Veja meu perfil no linkedin'>
+              <i class="fa-brands fa-linkedin sociallinks__icon"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/guh_vieira5555/" title='Veja meu instagram' target='_blank'>
+              <i class="fa-brands fa-instagram sociallinks__icon"></i>
+            </a>
+          </li>
+          <li>
+            <a href='./src/documents/curriculo_gustavo.pdf' title='Veja meu currículo' target='_blank'>
+              <i class="fa-solid fa-scroll sociallinks__icon"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="intro__photo"></div>
+    </section>
+    <div id='skills'>
+      <ul class='skills__list'>
+        <li>
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg' 
+          class='skill__icon' 
+          alt='html logo'/>
+        </li>
+        <li>
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg' 
+          class='skill__icon' 
+          alt='skill logo'/>
+        </li>
+        <li>
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg' 
+          class='skill__icon' 
+          alt='skill logo'/>
+        </li>
+        <li>
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg' 
+          class='skill__icon' 
+          alt='skill logo'/>
+        </li>
+        <li>
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg' 
+          class='skill__icon' 
+          alt='skill logo'/>
+        </li>
+        <li>
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg' 
+          class='skill__icon' 
+          alt='skill logo'/>
+        </li>
+        <li>
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' 
+          class='skill__icon' 
+          alt='skill logo'/>
+        </li>
+        <li>
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' 
+          class='skill__icon' 
+          alt='skill logo'/>
+        </li>
+        <li>
+          <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg' 
+          class='skill__icon' 
+          alt='skill logo'/>
+        </li>
+      </ul>
+    </div>
+    <section id="about" class="base">
+      <h2 class="subtitle">Sobre mim</h2>
+      <p class='about__text'>
+       Como desenvolvedor front-end, uso tecnologias como:<em> CSS, HTML, Javascript, ReactJS e NextJS</em>.
+      Gosto de trabalho em equipe, procuro discutir ideias, trocar conhecimento e experiências. Sou bem flexível para lidar com desafios e mudanças. Estou no desenvolvimeno web a pouco mais de um ano e meio, fico feliz quando estou criando algo e vejo o resultado
+      visível na minha frente, por isso tenho como minha stack o front-end.<br/>
+      </p>
+      <p class="about__text">
+        Em meu tempo livre gosto de: assistir animes, séries, futebol. Também sou apaixonado por velocidade, gosto de corridas como WRC,
+        NASCAR e Formula 1. Claro também passar um tempo no simulador aproveitando minha paixão.
+      </p>
+    </section>
+    <section id='formacao' class='base big'>
+      <h2 class="subtitle">Formação</h2>
+      <div class="formacao__group">
+        <div class="formacao__card">
+          <img src='./src/images/ifrj.png' alt='Instituto Federal Rio de Janeiro' class='card__img'/>
+          <h3 class='card__ensino'>Ensino Médio</h3>
+          <p class='card__conclusao'>2019 - IFRJ</p>
+        </div>
+        <div class="formacao__card">
+          <img src='./src/images/sestsenat.png' alt='Sest Senat' class='card__img'/>
+          <h3 class='card__ensino'>Eletricista Automotivo</h3>
+          <p class='card__conclusao'>2022 - SEST SENAT</p>
+        </div>
+        <div class="formacao__card">
+          <img src='./src/images/alura.png' alt='Alura logo' class='card__img'/>
+          <h3 class='card__ensino'>Formação Frontend</h3>
+          <p class='card__conclusao'>2023 - Alura</p>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="base big">
+      <h2 class="subtitle">Últimos Projetos</h2>
+      <div class="projects__group">
+        <div class="project__card">
+          <div class="project__img__box">
+            <img src='./src/images/spade.png' alt='spade squad game' class='project__card__img'/>
+            </div>
+          <div class="project__desktop">
+            <div>
+              <h3 class='project__card__title'>Spade Squad</h3>
+              <p class='project__card__descrip'>Jogo feito usando a biblioteca Phaser 3 em javascript.</p>
+            </div>
+            <div class="project__card__buttons">
+              <a
+                href='https://github.com/ARCFives/Spade_squad'
+                target="_blank"
+                title="Veja o repositório do projeto"
+                class="card__button card__button--repo"
+              >
+                  Ver Repositório
+              </a>
+              <a
+                href='https://arcfives.github.io/Spade_squad/'
+                target="_blank"
+                title="Veja o projeto funcionando"
+                class="card__button card__button--demo"
+              >
+                Ver Demo
+              </a> 
+            </div>
+          </div>
+        </div>
+        <div class="projects__group">
+          <div class="project__card">
+            <div class="project__img__box">
+              <img src='./src/images/calculator.png' alt='spade squad game' class='project__card__img'/>
+              </div>
+            <div class="project__desktop">
+              <div>
+                <h3 class='project__card__title'>Calculadora JS</h3>
+                <p class='project__card__descrip'>Calculadora com operações simples e função darkmode.</p>
+              </div>
+              <div class="project__card__buttons">
+                <a
+                  href='https://github.com/ARCFives/Calculadora-Simples'
+                  target="_blank"
+                  title="Veja o repositório do projeto"
+                  class="card__button card__button--repo"
+                >
+                    Ver Repositório
+                </a>
+                <a
+                  href='https://arcfives.github.io/Calculadora-Simples/'
+                  target="_blank"
+                  title="Veja o projeto funcionando"
+                  class="card__button card__button--demo"
+                >
+                  Ver Demo
+                </a> 
+              </div>
+            </div>
+          </div>
+          <div class="projects__group">
+            <div class="project__card">
+              <div class="project__img__box">
+                <img src='./src/images/doctor.png' alt='spade squad game' class='project__card__img'/>
+                </div>
+              <div class="project__desktop">
+                <div>
+                  <h3 class='project__card__title'>Doctor Care</h3>
+                  <p class='project__card__descrip'>Landing page de uma clínica médica</p>
+                </div>
+                <div class="project__card__buttons">
+                  <a
+                    href='https://github.com/ARCFives/DoctorCare'
+                    target="_blank"
+                    title="Veja o repositório do projeto"
+                    class="card__button card__button--repo"
+                  >
+                      Ver Repositório
+                  </a>
+                  <a
+                    href='https://arcfives.github.io/DoctorCare/'
+                    target="_blank"
+                    title="Veja o projeto funcionando"
+                    class="card__button card__button--demo"
+                  >
+                    Ver Demo
+                  </a> 
+                </div>
+              </div>
+            </div>
+      </div>
+    </section>
+    <section id='contact' className='base'>
+      <h2 class="subtitle">Contato</h2>
+      <div class="form__container">
+        <form action="#" method="post" class='form'>
+          <div class="form__box">
+            <div class="form__control">
+              <label for="name">Nome:</label>
+              <input type="text" id="name" placeholder='Digite seu nome' required name='name' minLength={3}/>
+            </div>
+            <div class="form__control">
+              <label for="email">Email:</label>
+              <input type="email" id="email" placeholder='Digite seu email' required name='email'/>
+            </div>
+            <div class="form__control">
+              <label for="formMsg">Mensagem:</label>
+              <textarea id="formMsg" cols="30" rows="10" placeholder='Digite aqui sua mensagem' name='message' required minLength={10}></textarea>
+            </div>
+          </div>
+          <button type="submit" id='formButton'>Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class='rodape'>
+    <p class='rodape__text'>Desenvolvido por Gustavo Vieira, 2023.</p>
+  </footer>
+  <script src="./src/script/main.js"></script>
+</body>
+</html>
